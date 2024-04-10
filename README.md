@@ -4,10 +4,10 @@
  24128
 
 ## Integrantes
-Ariel Videla
-Miguel Cabrera
-Gabriel Capria
-Matias Bernardis
+Ariel Videla -
+Miguel Cabrera -
+Gabriel Capria -
+Matias Bernardis -
 
 ## Skill
 HTLM
