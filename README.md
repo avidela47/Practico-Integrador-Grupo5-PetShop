@@ -7,7 +7,7 @@
 Ariel Videla -
 Miguel Cabrera -
 Gabriel Capria -
-Matias Bernardis -
+Matias Bernardis
 
 ## Skill
 HTLM
