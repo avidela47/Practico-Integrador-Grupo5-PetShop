@@ -1,6 +1,6 @@
 # Practico Integrador - CaC - NodeJS
 
-![Screenshot](/website%20image/screenshot.png)
+![Screenshot](/image/screenshot.png)
 
 ## Comisión
  24128
@@ -23,18 +23,16 @@ Matias Bernardis
 - El sitio web debe estar estructurado utilizando etiquetas semánticas HTML correctamente. Debe pasar la validación de https://validator.w3.org/ sin errores.
 - Utilizar iframes y/o íconos de FontAwesome y/o fuentes locales o bien de Google Fonts.Es optativo incluir algún elemento de Bootstrap.
 
-Clonar el ropositorio
+### Clonar el ropositorio
 ```sh
 https://github.com/avidela47/Practico-Integrador-Grupo5-PetShop.git
 ```
-Correr la aplicación en Versel
-```sh
+### Correr la aplicación en Versel
 https://practico-integrador-grupo5-pet-shop.vercel.app/
-```
 
-### Paso a paso creacion de la API y sus archivos.
+## Paso a paso creacion los archivos:
 
-## Skill
+### Skill
 HTLM
 CSS
 JAVASCRIPT
