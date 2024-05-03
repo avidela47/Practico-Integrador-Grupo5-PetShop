@@ -1,4 +1,7 @@
+/* Importa la fuente Poppins desde Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+/* Estilos globales para resetear márgenes, padding, y otros estilos predeterminados */
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -13,6 +16,7 @@
   transition: .2s linear;
 }
 
+/* Estilos específicos para el elemento html */
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -20,6 +24,7 @@ html {
   scroll-padding-top: 4rem;
 }
 
+/* Personalización de la barra de desplazamiento */
 html::-webkit-scrollbar {
   width: 1rem;
 }
@@ -33,10 +38,12 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 
+/* Estilos para secciones */
 section {
   padding: 5rem 9%;
 }
 
+/* Estilos para encabezados */
 .heading {
   padding-bottom: 2rem;
   text-align: center;
@@ -48,6 +55,7 @@ section {
   color: #e67e22;
 }
 
+/* Estilos para botones */
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -88,6 +96,7 @@ section {
   color: #fff;
 }
 
+/* Animación de entrada para elementos */
 @-webkit-keyframes fadeIn {
   0% {
     -webkit-transform: translateY(3rem);
@@ -104,6 +113,7 @@ section {
   }
 }
 
+/* Estilos para el encabezado */
 .header {
   background: #fff;
   display: -webkit-box;
@@ -255,6 +265,7 @@ section {
   display: none;
 }
 
+/* Estilos para la sección de inicio */
 .home {
   min-height: 100vh;
   display: -webkit-box;
@@ -351,6 +362,7 @@ section {
   line-height: 2;
 }
 
+/* Estilos para la sección de información sobre mascotas */
 .dog-food,
 .cat-food {
   display: -webkit-box;
@@ -514,6 +526,7 @@ section {
   gap: 1.5rem;
 }
 
+/* Estilos para la sección de servicios */
 .services .box-container .box {
   background: #eee;
   padding: 3rem;
@@ -546,6 +559,7 @@ section {
   padding: 1rem 0;
 }
 
+/* Estilos para la sección de planes */
 .plan .box-container {
   display: -ms-grid;
   display: grid;
@@ -565,7 +579,7 @@ section {
 
 .plan .box-container .box .btn {
   position: absolute;
-  bottom: -2rem;
+  bottom: 3.5rem;
   right: 2rem;
   background: #fff;
 }
@@ -621,6 +635,7 @@ section {
   font-size: 3rem;
 }
 
+/* Estilos para la sección de contacto */
 .contact {
   padding: 2rem 0;
   display: -webkit-box;
@@ -682,6 +697,7 @@ section {
   resize: none;
 }
 
+/* Estilos para el pie de página */
 .footer {
   position: relative;
   background: url(../image/footer_background.jpg) no-repeat;
@@ -740,6 +756,7 @@ section {
   color: #e67e22;
 }
 
+/* Media query para dispositivos desktop */
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -765,6 +782,7 @@ section {
   }
 }
 
+/* Media query para dispositivos tablet */
 @media (max-width: 768px) {
   #menu-btn {
     display: inline-block;
@@ -789,6 +807,7 @@ section {
   }
 }
 
+/* Media query para dispositivos smartphone */
 @media (max-width: 450px) {
   html {
     font-size: 50%;
